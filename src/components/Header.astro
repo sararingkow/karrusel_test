@@ -1,0 +1,67 @@
+---
+
+---
+
+<header>
+  <div class="logo">
+    <a href=""><img src="public/svg/logo_header.svg" alt="logo" /></a>
+  </div>
+  <nav class="nav">
+    <ul class="nav-list">
+      <li><a href="/Overview">LINEUP</a></li>
+      <li><a href="#">TICKETS</a></li>
+      <li><a href="#">GALLERY</a></li>
+      <li><a href="#">PROGRAM</a></li>
+      <li><a href="#">ABOUT US</a></li>
+    </ul>
+    <div class="burgermenu">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+  </nav>
+</header>
+
+<style>
+  .logo {
+    margin-top: 20px;
+    max-width: 130px;
+  }
+  .logo img {
+    width: 100%;
+  }
+  .logo img:hover {
+    opacity: 70%;
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+
+  .nav-list {
+    list-style: none;
+    margin: 25px;
+    padding: 10px;
+  }
+
+  .nav-list {
+    display: flex;
+  }
+
+  .nav-list li {
+    margin-right: 25px;
+  }
+
+  .burgermenu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+  }
+</style>
